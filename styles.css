@@ -1,0 +1,85 @@
+:root {
+    /* colors */
+    --off-black: hsl(0, 0%, 8%);
+    --dark-grey: hsl(0, 0%, 12%);
+    --grey: hsl(0, 0%, 20%);
+    --white:hsl(0, 0%, 100%);
+    --green: hsl(75, 94%, 57%);
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--off-black);
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+    display: grid;
+    place-content: center;
+}
+
+main {
+    background-color: var(--dark-grey);
+    padding: 2rem;
+    max-width: 400px;
+    text-align: center;
+    border-radius: .75rem;
+    margin-bottom: 30px;
+}
+
+img {
+    margin-bottom: .5rem;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.name {
+    color: var(--white);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 0.05rem;
+}
+
+.profile-location {
+    color: var(--green);
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 2.5rem
+}
+
+.job-description {
+    color: var(--white);
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+
+.social-link a {
+    background-color: var(--grey);
+    color: var(--white);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-family: sans-serif;
+    font-weight: 570;
+    letter-spacing: 0.01rem;
+    border-radius: .5rem;
+    display: block;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.social-link a:hover {
+    background-color: var(--green);
+    color: var(--off-black);
+}
+
+.attribution {
+    color: var(--white);
+}
+
+.attribution a {
+    color: var(--green);
+}
